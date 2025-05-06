@@ -1,0 +1,34 @@
+What are the Kirchhoff’s circuit laws?
+
+State Ohm’s law! Is it applicable in AC systems?
+
+Can you write the Node Admittance Matrix for a circuit?
+
+How are the complex impedances of a capacitor and an inductor defined?
+
+How are a node-voltage analysis and a branch-current analysis being carried out to find
+the currents and/or voltages of an electrical network?
+
+Can you convert a resistive voltage source into an equivalent current source?
+
+Can you determine the output voltage of a resistive source loaded with a diode?
+
+What is the DC operating point of an electrical network?
+
+How can the nonlinear state-space description of a network be linearized around a DC
+operating point?
+
+What is the small signal equivalent circuit of an electrical network?
+
+What is a 4-pole and what is a 2-port? How are the Y- and Z-parameters of a linear
+2-port defined?
+
+Can you calculate the step response for first order RLC networks?
+
+What is the time constant  of a first order low-pass filter (comprised of a resistor and
+a capacitor)?
+
+What are the characteristics of an ideal OPAMP (impedances, gain)?
+
+Can you draw an analog adder, a low-pass, and an ideal integrator using an OPAMP?
+
