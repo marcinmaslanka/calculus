@@ -1,0 +1,3 @@
+What are complex numbers? Why and when are they required?
+Give the rules for computing (addition, subtraction, multiplication, and division) with
+complex numbers!
