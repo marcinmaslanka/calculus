@@ -1,3 +1,34 @@
 What are complex numbers? Why and when are they required?
 Give the rules for computing (addition, subtraction, multiplication, and division) with
 complex numbers!
+
+
+Write down Euler’s formula! Describe the Cartesian form and the polar form of complex
+numbers! How can both forms be converted into each other?
+
+What are absolute value (magnitude) and argument (phase) of a complex number?
+
+Differentiate (w.r.t. the variable t; c 2 R; j2 = −1) the following functions:
+f(t) = c, f(t) = t2, f(t) = cos(ct), f(t) = et, f(t) = ejct
+
+Integrate (w.r.t. the variable t; c 2 R; j2 = −1) the following functions:
+f(t) = c, f(t) = t2, f(t) = cos(ct), f(t) = ejct, f(t) =  1, |t| < 1/2
+0, else
+
+How is the product of a matrix with a vector defined? Which requirements do both
+quantities have to fulfill, such that the product exists?
+
+How is the scalar product of vectors defined? How is the cross product between two
+vectors defined?
+
+What is the Euclidean norm of a vector?
+
+Let a basis, i.e., a set of vectors spanning a space, be given. How can we calculate an
+orthonormal basis from the given one?
+
+Explain the meaning of eigenvalues and eigenvectors! How are they calculated given a
+(square) matrix?
+
+What is the meaning of curl, div, and grad? Express them in Cartesian, polar, and
+cylindrical coordinates!
+
