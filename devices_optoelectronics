@@ -1,31 +1,79 @@
+# 🔍 Semiconductor Basics Quiz
+
+## ❓ Question 1:
 Explain the concept of holes (in addition to electrons) in a semiconductor!
 
+<details>
+  <summary>🅰️ Answer</summary>
+
+A **hole** in a semiconductor is the absence of an electron in the **valence band**. When an electron gains energy and moves to the **conduction band**, it leaves behind a hole. This hole behaves like a **positive charge carrier** because neighboring electrons can jump into it, causing the hole to effectively move in the opposite direction of electron flow. Holes contribute to electrical conduction, especially in **p-type** materials.
+
+</details>
+
+
+---
+
+## ❓ Question 2:
 What is the Fermi energy? What are quasi-Fermi energies?
 
+---
+
+## ❓ Question 3:
 Explain the flow of electrical current over a pn-junction.
 
-What is the depletion region in a pn-junction and how does it depend on the applied
-voltage?
+---
 
-What is the expression for the drain current of a MOSFET transistor in strong inversion
-as a function of its gate, drain, and source voltage ignoring all second-order effects?
+## ❓ Question 4:
+What is the depletion region in a pn-junction and how does it depend on the applied voltage?
 
-What is the expression for the emitter current of a bipolar transistor as a function of its
-base voltage and its reverse saturation current according to the Ebers-Moll model?
+---
 
+## ❓ Question 5:
+What is the expression for the drain current of a MOSFET transistor in strong inversion as a function of its gate, drain, and source voltage ignoring all second-order effects?
+
+---
+
+## ❓ Question 6:
+What is the expression for the emitter current of a bipolar transistor as a function of its base voltage and its reverse saturation current according to the Ebers-Moll model?
+
+---
+
+## ❓ Question 7:
 What are the DC small signal equivalent circuits of a MOSFET and a BJT?
 
+---
+
+## ❓ Question 8:
 What is a common source/gate/drain amplifier for a MOSFET transistor?
 
+---
+
+## ❓ Question 9:
 What is a common emitter/base/collector configuration for a bipolar transistor?
 
+---
+
+## ❓ Question 10:
 Which frequency does green light have approximately?
 
+---
+
+## ❓ Question 11:
 How large is the velocity of light in a material?
 
+---
+
+## ❓ Question 12:
 What happens when a light ray hits an interface between two different media?
 
+---
+
+## ❓ Question 13:
 What is a photon? Does it have a mass? What is its momentum?
 
+---
+
+## ❓ Question 14:
 What is “coherence” of a light field?
 
+---
