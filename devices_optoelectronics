@@ -42,10 +42,37 @@ Both electrons and holes contribute to conduction.
 ## ❓ Question 2:
 What is the Fermi energy? What are quasi-Fermi energies?
 
+Answer:
+The Fermi energy (denoted Ef) is a fundamental concept in solid-state physics. It represents the energy level at which the probability of finding an electron is 50% at absolute zero temperature (0 K). In a semiconductor, the Fermi energy helps describe how electrons are distributed across energy levels.
+
+In intrinsic (pure) semiconductors, the Fermi level lies near the middle of the bandgap, between the valence and conduction bands.
+
+In n-type semiconductors, the Fermi level shifts closer to the conduction band, reflecting a higher electron concentration.
+
+In p-type semiconductors, it shifts closer to the valence band, indicating a higher hole concentration.
+
+The Fermi level is crucial for understanding electrical behavior, carrier concentration, and the direction of current flow.
+
+🔹 Quasi-Fermi Energies
+When a semiconductor is under non-equilibrium conditions — for example, when a voltage is applied or when light generates excess carriers — the single Fermi level concept no longer suffices. Instead, two separate energy levels are used:
+EFn : Quasi-Fermi level for electrons EFp : Quasi-Fermi level for holes
+
+These are known as quasi-Fermi energies, and they indicate the separate distributions of electrons and holes under external excitation. The splitting between 
+EFn​ and EFp gives insight into:
+
+Carrier injection levels
+
+Current flow in devices like diodes and solar cells
+
+Optical or electrical pumping effects
+
+
 ---
 
 ## ❓ Question 3:
 Explain the flow of electrical current over a pn-junction.
+
+
 
 ---
 
