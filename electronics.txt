@@ -68,10 +68,32 @@ Inductor: The complex impedance Z_L of an inductor with inductance L at angular 
 ## How are a node-voltage analysis and a branch-current analysis being carried out to find
 the currents and/or voltages of an electrical network?
 
+How are a node-voltage analysis and a branch-current analysis being carried out to find
+the currents and/or voltages of an electrical network?
 
+Node-voltage analysis (also called nodal analysis) and branch-current analysis (also called mesh or loop analysis) are systematic methods for determining unknown voltages and currents in an electrical network.
+
+Node-voltage analysis:
+
+Select a reference node (ground) and assign voltages to other nodes.
+Apply Kirchhoff’s Current Law (KCL) at each non-reference node: the sum of currents leaving or entering a node is zero.
+Express each current in terms of node voltages and component admittances or resistances.
+Solve the resulting set of equations to find the unknown node voltages.
+Calculate branch currents using the found node voltages.
+Branch-current analysis:
+
+Assign current variables to branches or define loop/mesh currents.
+Apply Kirchhoff’s Voltage Law (KVL) to each independent loop: the sum of voltage drops around a closed loop is zero.
+Express voltages in terms of branch currents and component resistances or impedances.
+Solve the resulting set of equations to find the branch currents.
+Calculate voltages across components as needed using Ohm’s or the generalized impedance law.
+Both methods use Kirchhoff’s laws and Ohm’s law to form a solvable system of equations describing the circuit behavior.
 ---
 
-Can you convert a resistive voltage source into an equivalent current source?
+##Can you convert a resistive voltage source into an equivalent current source?
+
+
+---
 
 Can you determine the output voltage of a resistive source loaded with a diode?
 
