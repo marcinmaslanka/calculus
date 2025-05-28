@@ -75,11 +75,31 @@ Node-voltage analysis (also called nodal analysis) and branch-current analysis (
 
 Node-voltage analysis:
 
-Select a reference node (ground) and assign voltages to other nodes.
-Apply Kirchhoff’s Current Law (KCL) at each non-reference node: the sum of currents leaving or entering a node is zero.
-Express each current in terms of node voltages and component admittances or resistances.
-Solve the resulting set of equations to find the unknown node voltages.
-Calculate branch currents using the found node voltages.
+ ┌────────────────────────────┐
+ │ 1. Assign current variables│
+ │    to branches or meshes   │
+ └────────────┬───────────────┘
+              │
+ ┌────────────▼───────────────┐
+ │ 2. Apply KVL to each loop  │
+ └────────────┬───────────────┘
+              │
+ ┌────────────▼───────────────┐
+ │ 3. Write equations for     │
+ │    voltages in terms of    │
+ │    branch currents         │
+ └────────────┬───────────────┘
+              │
+ ┌────────────▼───────────────┐
+ │ 4. Solve the equations     │
+ │    for branch currents     │
+ └────────────┬───────────────┘
+              │
+ ┌────────────▼───────────────┐
+ │ 5. Find voltages across    │
+ │    components as needed    │
+ └────────────────────────────┘
+
 Branch-current analysis:
 
 Assign current variables to branches or define loop/mesh currents.
