@@ -32,10 +32,36 @@ where Z is the complex impedance.
 
 ## Can you write the Node Admittance Matrix for a circuit?
 
+The Node Admittance Matrix (Y-matrix) for a circuit expresses the relationship between node voltages and currents in matrix form, using admittances (the reciprocals of impedances).
 
+For an n-node circuit (excluding the reference/ground node), the matrix equation is:
+
+I = Y · V
+
+Where:
+
+I is the column vector of node currents (excluding ground),
+V is the column vector of node voltages (excluding ground),
+Y is the nodal admittance matrix.
+The elements of the Y-matrix are:
+
+Y_ii (diagonal): The sum of all admittances connected to node i.
+Y_ij (off-diagonal, i ≠ j): The negative sum of admittances directly connecting nodes i and j.
+Mathematically, for nodes 1 to n:
+
+Y_ii = sum of all admittances connected to node i,
+Y_ij = - (sum of admittances directly connecting node i and node j), for i ≠ j.
+Example for a 3-node circuit: | I₁ | = | Y₁₁ Y₁₂ Y₁₃ | * | V₁ | 
+                              | I₂ | = | Y₂₁ Y₂₂ Y₂₃ | * | V₂ | 
+                              | I₃ | = | Y₃₁ Y₃₂ Y₃₃ | * | V₃ |
+
+This matrix is constructed based on the circuit’s topology and component values.
 ---
 
-How are the complex impedances of a capacitor and an inductor defined?
+## How are the complex impedances of a capacitor and an inductor defined?
+
+
+---
 
 How are a node-voltage analysis and a branch-current analysis being carried out to find
 the currents and/or voltages of an electrical network?
