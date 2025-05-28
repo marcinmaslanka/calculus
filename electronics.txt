@@ -1,6 +1,20 @@
-What are the Kirchhoff’s circuit laws?
+## What are the Kirchhoff’s circuit laws?
 
-State Ohm’s law! Is it applicable in AC systems?
+Kirchhoff’s circuit laws are fundamental rules used in electrical circuit analysis:
+
+1. Kirchhoff’s Current Law (KCL):
+The algebraic sum of currents entering a node (or junction) in an electrical circuit is zero. Mathematically: ∑ Iin = ∑ Iout or ∑ I = 0 (at a node) This means that the total current entering a junction equals the total current leaving the junction.
+
+2. Kirchhoff’s Voltage Law (KVL):
+The algebraic sum of all voltages around any closed loop or mesh in a circuit is zero. Mathematically: ∑ V = 0 (around a closed loop) This means that the sum of the electromotive forces (emfs) and potential drops in a closed loop is zero.
+
+These laws apply to both DC and AC circuits and are essential for analyzing complex electrical networks.
+---
+
+
+## State Ohm’s law! Is it applicable in AC systems?
+
+
 
 Can you write the Node Admittance Matrix for a circuit?
 
