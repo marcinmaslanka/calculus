@@ -14,9 +14,26 @@ These laws apply to both DC and AC circuits and are essential for analyzing comp
 
 ## State Ohm’s law! Is it applicable in AC systems?
 
+Ohm’s law states that the current (I) through a conductor between two points is directly proportional to the voltage (V) across the two points, provided the temperature remains constant. It is mathematically expressed as:
+
+V = I × R
+
+where:
+
+V = voltage (volts)
+I = current (amperes)
+R = resistance (ohms)
+Yes, Ohm’s law is applicable in AC (alternating current) systems as well. However, in AC circuits, you may need to use impedance (which includes resistance and reactance) instead of just resistance, so the relationship becomes:
+
+V = I × Z
+
+where Z is the complex impedance.
+---
+
+## Can you write the Node Admittance Matrix for a circuit?
 
 
-Can you write the Node Admittance Matrix for a circuit?
+---
 
 How are the complex impedances of a capacitor and an inductor defined?
 
