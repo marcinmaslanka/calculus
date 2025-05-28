@@ -60,11 +60,16 @@ This matrix is constructed based on the circuit’s topology and component value
 
 ## How are the complex impedances of a capacitor and an inductor defined?
 
+Capacitor: The complex impedance Z_C of a capacitor with capacitance C at angular frequency ω is defined as Z_C = 1/(jωC), where j is the imaginary unit.
 
+Inductor: The complex impedance Z_L of an inductor with inductance L at angular frequency ω is defined as Z_L = jωL, where j is the imaginary unit.
 ---
 
-How are a node-voltage analysis and a branch-current analysis being carried out to find
+## How are a node-voltage analysis and a branch-current analysis being carried out to find
 the currents and/or voltages of an electrical network?
+
+
+---
 
 Can you convert a resistive voltage source into an equivalent current source?
 
